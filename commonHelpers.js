@@ -7,5 +7,5 @@ import"./assets/styles-51917637.js";import{S as p}from"./assets/vendor-870f0eb5.
         alt="${o.description}"
       />
     </a>
-  </li>`),t=document.querySelector("ul.gallery");t.insertAdjacentHTML("beforeEnd",a.join(""));let e=new p(".gallery a",{captionsData:"alt",captionPosition:"bottom",captionDelay:250});e.on("show.simplelightbox",function(){});
+  </li>`),t=document.querySelector("ul.gallery");t.insertAdjacentHTML("beforeEnd",a.join(""));const e=new p(".gallery a",{captionsData:"alt",captionPosition:"bottom",captionDelay:250});e.on("show.simplelightbox",function(){});
 //# sourceMappingURL=commonHelpers.js.map
