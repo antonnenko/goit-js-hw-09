@@ -1,3 +1,6 @@
+import SimpleLightbox from 'simplelightbox';
+import 'simplelightbox/dist/simple-lightbox.min.css';
+
 const images = [
   {
     preview:
@@ -81,10 +84,7 @@ const myGallery = document.querySelector('ul.gallery');
 
 myGallery.insertAdjacentHTML('beforeEnd', gallery.join(''));
 
-import SimpleLightbox from 'simplelightbox';
-import 'simplelightbox/dist/simple-lightbox.min.css';
-
-let galleryA = new SimpleLightbox('.gallery a', {
+const galleryA = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionPosition: 'bottom',
   captionDelay: 250,
